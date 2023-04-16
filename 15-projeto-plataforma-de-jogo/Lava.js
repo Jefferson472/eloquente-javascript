@@ -1,3 +1,6 @@
+import {Vector} from "./Vector.js"
+
+
 class Lava {
   constructor(pos, ch) {
     this.pos = pos;
@@ -20,8 +23,9 @@ class Lava {
       this.pos = newPos;
     else if (this.repeatPos)
       this.pos = this.repeatPos;
-
     else
       this.speed = this.speed.times(-1);
   }
 }
+
+export {Lava}
