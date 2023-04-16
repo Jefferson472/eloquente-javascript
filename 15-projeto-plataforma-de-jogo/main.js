@@ -1,5 +1,5 @@
-import {DOMDisplay} from "./DOMDisplay.js"
-import {Level} from "./Level.js"
+import {DOMDisplay} from "./components/DOMDisplay.js"
+import {Level} from "./components/Level.js"
 import {trackKeys} from "./utils.js"
 
 
