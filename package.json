@@ -1,0 +1,8 @@
+{
+  "name": "eloquente-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "my-dependency": "^1.0.0"
+  }
+}
